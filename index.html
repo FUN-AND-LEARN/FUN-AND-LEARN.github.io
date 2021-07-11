@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./assets/logo.jpg" type="image/icon" />
+    <title>Fun and learn</title>
+
+    <!----------- Font Awesome Icons ------------->
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!----------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!----------- AOS Library -------------------->
+    <link rel="stylesheet" href="./css/aos.css" />
+
+    <!-- Custom Style ---------------------------->
+    <link rel="stylesheet" href="./css/Style.css" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Jquery Library file -->
+    <script defer src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script defer src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script defer src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script defer src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+    <nav id="navg" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="/">
+            <span>
+              <img src="./assets/logo.jpg" alt="logo" />
+            </span>
+            FUN & LEARN</a
+          >
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="nav1-link events">
+              <a href="#">Events</a>
+            </li>
+            <li class="nav1-link contactus">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="social text-gray">
+                <a href="https://www.facebook.com/105921851431356/posts/186513406705533/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/startup4087?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/FUNandLEARN8/"><i class="fab fa-twitter"></i></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+      <!------------------------ Site Title ---------------------->
+      <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+          <h3>FUN & LEARN</h3>
+          <h1>learning is fun</h1>
+          <button class="btn" onclick="redirect()">ABOUT</button>
+        </div>
+      </section>
+
+      <!-- --------------------- Carousel ----------------- -->
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                <img src="./assets/Blog-post/event1.jpeg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>QUIZ SHOW</h3>
+                </div>
+              </div>
+              <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                <img src="./assets/Blog-post/event4.jpeg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>APTITUDE WORKSHOP</h3>
+                </div>
+              </div>
+              <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                <img src="./assets/Blog-post/event3.jpeg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>TALENT SHOW</h3>
+                </div>
+              </div>
+              <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                <img src="./assets/Blog-post/EVENT5.jpeg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>TREASURE HUNT</h3>
+                </div>
+              </div>
+            </div>
+            <div class="owl-navigation">
+              <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+              <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ---------------------- Site Content -------------------------->
+
+      <section class="container">
+        <div class="site-content">
+          <div class="posts">
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/Blog-post/pic1.jpg" class="img" alt="blog1" />
+                </div>
+                <div class="post-info flex-row">
+                  <!-- <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;</span> -->
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 13, 2021</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >Quiz Show</a
+                >
+                <p>
+                  This was the inaugural event of the organisation. Due to the lock down in place, 
+                  it was conducted online. The theme for the event was multi domain ranging from science & technology 
+                  to movies & music. This multi domain theme made us unique from the rest, which played a crucial role 
+                  in attracting huge audiences from all age sectors. Adding on the event was conducted on weekends, 
+                  which also proved beneficiary in receiving an overwhelming response. 
+                </p>
+                <a href="#"
+                  >Talent Show</a
+                >
+                <p>
+                  Looking at the idle state of the students due to the lock down, we conducted a talent show program 
+                  in order to create a virtual platform for participants to present their talent. 
+                  The participants presented their talents in music, art, and dance to even stand-up comedy. 
+                  This proved to be highly appreciable by our mentors as lock down had drained us of all interests and 
+                  activities from daily life.
+                   As expected, the event was well received and appreciated by the student community.
+                </p>
+                <a href="#"
+                  >Treasure Hunt</a
+                >
+                <p>
+                  Soon after the college reopened in March, we decided to have our first offline event. 
+                  By utilizing the resources in the college campus, we came up with the idea of treasure hunt. 
+                  There were 20 teams who participated with enthusiasm. All of them were 1st year engineering undergrads, 
+                  who hadn’t had the opportunity to explore the campus. Our event provided the occasion for these freshers to
+                   know their friends and college better. All students had fun participating in the event. 
+                  Exciting cash prizes were given to the winners at the end of the treasure hunt. 
+                </p>
+                <!-- <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button> -->
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img src="./assets/Blog-post/pic2.jpg" class="img" alt="blog1" />
+                </div>
+                <div class="post-info flex-row">
+                  <!-- <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span> -->
+                  <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;March 13, 2021</span>
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >Winners of the Treasure Hunt</a
+                >
+                <p>Winners of the treasure hunt</p>
+                <!-- <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button> -->
+              </div>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="popular-post">
+              <h2 data-aos="fade-right">UPCOMING EVENTS</h2>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                <div class="post-image">
+                  <div>
+                    <img src="./assets/Blog-post/SHORT_FILM.jpeg" class="img" alt="blog1" />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;July 8, 2021</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#" onclick="redirectu1()"><h4>Short Film</h4></a>
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                <div class="post-image">
+                  <div>
+                    <!-- <img src="./assets/upcoming events/m-blog-2.jpg" class="img" alt="blog1" /> -->
+                  </div>
+                  <div class="post-info flex-row">
+                    <!-- <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span> -->
+                  </div>
+                </div>
+                <div class="post-title">
+                  <!-- <a href="#" onclick="redirectu2()"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas</a
+                  > -->
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <!-- team members carousel -->
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2><b>Core Members</b></h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="row">
+                    <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        <div class="img-box">
+                          <img src="./assets/core_team/founder1.jpeg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>Founder</h4>
+                          <h5>Charan</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        <div class="img-box">
+                          <img src="./assets/core_team/chair.jpeg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>Advisory-head</h4>
+                          <h5>professor Rajaram</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        <div class="img-box">
+                          <img src="./assets/core_team/vice_chair.jpeg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>Organizing lead</h4>
+                          <h5>Meghana</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="thumb-wrapper">
+                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                        <div class="img-box">
+                          <img src="./assets/core_team/Marketting-head.jpeg" class="img-responsive" alt="" />
+                        </div>
+                        <div class="thumb-content">
+                          <h4>Marketing-head</h4>
+                          <h5>Sohail</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- slot to add more team members -->
+
+                <div class="item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/sindhu.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Marketing Lead</h4>	
+                                            <h5>Sindhu H V</h5>						
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/chandan.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Executive Lead</h4>		
+                                            <h5>Chandhan</h5>					
+                                        </div>						
+                                    </div>
+                                </div>		
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/Vivek.JPG" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Executive Lead</h4>		
+                                          <h5>Vivek Baluwale</h5>							
+                                        </div>						
+                                    </div>
+                                </div>								
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/nandita.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Technical and Development lead</h4>
+                                          <h5>Nandita S V</h5>							
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/sharan.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Technical and Development lead</h4>
+                                          <h5>Sharanu Jewargi</h5>						
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/shivakumar.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Technical and Development lead</h4>
+                                          <h5>Shivakumar M Shetty</h5>					
+                                        </div>						
+                                    </div>
+                                </div>		
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/harshit.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Event Coordinator</h4>
+                                            <h5>Harshit Jagannath</h5>							
+                                        </div>						
+                                    </div>
+                                </div>								
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/sneha.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Event Coordinator</h4>
+                                          <h5>Sneha N Shet</h5>							
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/swaroop dutt.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Creative lead</h4>
+                                          <h5>Swaroop Dhutt S</h5>						
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/Vishnu.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Creative lead</h4>
+                                          <h5>Vishnu</h5>					
+                                        </div>						
+                                    </div>
+                                </div>		
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/Santhosh Final Image.jpg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                            <h4>Event Manager</h4>
+                                            <h5>Santosh H S</h5>							
+                                        </div>						
+                                    </div>
+                                </div>								
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/punith.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Event Manager</h4>
+                                          <h5>Puneeth M N</h5>							
+                                        </div>						
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                              <div class="col-sm-3">
+                                <div class="thumb-wrapper">
+                                    <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                    <div class="img-box">
+                                        <img src="./assets/core_team/sanjay.jpeg" class="img-responsive" alt="">									
+                                    </div>
+                                    <div class="thumb-content">
+                                      <h4>Social Media Coordinator</h4>
+                                      <h5>Sanjay Swami</h5>					
+                                    </div>						
+                                </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/chanakya.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>External Tech Assistant</h4>
+                                          <h5>Chanakya</h5>						
+                                        </div>						
+                                    </div>
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="thumb-wrapper">
+                                        <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                        <div class="img-box">
+                                            <img src="./assets/core_team/swaroop s.jpeg" class="img-responsive" alt="">									
+                                        </div>
+                                        <div class="thumb-content">
+                                          <h4>Non-Technical Assistant</h4>
+                                          <h5>Swaroop S Atre</h5>					
+                                        </div>						
+                                    </div>
+                                </div>
+                                		
+                                
+                            </div>
+                        </div>
+
+                <!-- slot to add more team members -->
+              </div>
+              <!-- CAROUSEL CONTROLS -->
+
+
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- team members carousel-->
+
+      <!-- -----------x---------- Site Content -------------x------------>
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>Contact us</h2>
+          <p>
+            9885792269
+            <p></p>
+            Funlearn4087@gmail.com
+          </p>
+        </div>
+
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
+            <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
+            <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
+          </div>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
+            <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
+            <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
+          </div>
+        </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>Follow us</h2>
+          <p>Let us be Social</p>
+          <div>
+            <a href="https://www.facebook.com/105921851431356/posts/186513406705533/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/FUNandLEARN8/"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/startup4087?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
+    </footer>
+  </body>
+</html>
